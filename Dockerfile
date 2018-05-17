@@ -1,4 +1,4 @@
-FROM postgres:9
+FROM postgres:latest
 
 ADD https://raw.githubusercontent.com/bucardo/check_postgres/master/check_postgres.pl /usr/local/bin/check_postgres
 
